@@ -1,10 +1,16 @@
 import React from "react";
-import PropTypes from "prop-types";
+import styled from "styled-components";
 
- const Button = ({ children }) => <button>{ children }</button>;
-
-Button.propTypes = {
-  children: PropTypes.node,
-};
+const Button = styled.button`
+  background-color: white;
+  border: 2px solid Coral;
+  color: Coral;
+  padding: 1rem 2rem;
+  border-radius: .4rem;
+  &:hover {
+    background-color: Coral;
+    color: white;
+  }
+`;
 
 export default Button;
