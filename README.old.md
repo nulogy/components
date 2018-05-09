@@ -1,2 +1,0 @@
-# components
-Nulogy component library.
