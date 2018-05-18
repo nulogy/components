@@ -1,13 +1,27 @@
 {
-  "name": "components",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4",
-    "styled-components": "^3.2.6"
+  "name": "@nulogy/components",
+  "version": "0.0.1",
+  "description": "Component library for Nulogy Design System - http://nulogy.design",
+  "private": false,
+  "license": "MIT",
+  "author": {
+    "name": "Nulogy",
+    "email": "info@nulogy.com"
   },
+  "homepage": "http://nulogy.design",
+  "repository": "https://github.com/nulogy/components",
+  "bugs": {
+    "url": "https://github.com/nulogy/components/issues"
+  },
+  "keywords": [
+   "nulogy",
+   "NDS",
+   "react",
+   "components",
+   "component library",
+   "design system"
+  ],
+  "main": "build/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -16,6 +30,14 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "deploy-storybook": "storybook-to-ghpages"
+  },
+  "peerDependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "dependencies": {
+    "react-scripts": "1.1.4",
+    "styled-components": "^3.2.6"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.2",
