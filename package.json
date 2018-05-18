@@ -1,6 +1,6 @@
 {
   "name": "@nulogy/components",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Component library for Nulogy Design System - http://nulogy.design",
   "private": false,
   "license": "MIT",
@@ -27,7 +27,7 @@
   "main": "dist/main.js",
   "scripts": {
     "start": "webpack --mode development",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --config webpack.config.js",
     "test": "jest",
     "storybook": "start-storybook -p 9009",
     "build-storybook": "build-storybook",
